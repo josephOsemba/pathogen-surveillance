@@ -1,8 +1,8 @@
-# Plant Disease Diagnosis System
+# AI-DRIVEN PATHOGEN SURVEILLANCE AND PANDEMIC PREVENTION SYSTEM
 
 ## Overview
 
-This project is a comprehensive plant disease diagnosis system designed to identify plant diseases based on signs and symptoms. The system leverages a neural network model (Memory Network) implemented in TensorFlow/Keras, integrated with a Flask web application to provide a user-friendly interface for users to input symptoms and receive predictions.
+This project is a comprehensive, proactive pandemic detection, and diagnosis system designed to identify pathogens based on the image analysis of the pathogen DNA patterns and signs and symptoms. The system leverages a neural network model (Memory Network) implemented in TensorFlow/Keras, integrated with a Flask web application to provide a user-friendly interface for users to input symptoms and receive predictions.
 
 ## Features
 
