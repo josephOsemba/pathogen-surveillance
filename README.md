@@ -9,11 +9,11 @@ This project is a comprehensive, proactive pandemic detection, and diagnosis sys
 - **Flask Web Application**: A RESTful API for users to submit symptoms and receive disease predictions.
 - **Memory Network Model**: A custom NLP model that utilizes LSTM layers to process and classify any trained data data.
 - **Plant Village Model**: A custome cNN model that utilizes LSTM layers to process and classify images using the trained data.
-- **PlantVillage Dataset**: The model is trained on a dataset containing various plant diseases along with their associated signs and symptoms.
+- **PlantVillage Dataset**: The model is trained on a dataset containing various pathogens along with their associated signs and symptoms.
 
 ## Project Structure
 
-/Plant-Disease-Diagnosis ├── app.py # Main Flask application ├── MemoryNetWork.py # Memory Network implementation ├── PlantVillageModel.py # Model handling, training, and prediction ├── requirements.txt # Project dependencies ├── data/ # Dataset folder (optional) └── README.md # Project documentation
+/Pathogen-Diagnosis ├── app.py # Main Flask application ├── MemoryNetWork.py # Memory Network implementation ├── PlantVillageModel.py # Model handling, training, and prediction ├── requirements.txt # Project dependencies ├── data/ # Dataset folder (optional) └── README.md # Project documentation
 
 ## Installation
 
@@ -44,7 +44,7 @@ This will start the Flask server on http://127.0.0.1:5000/ (or the specified por
 ## API Endpoints
 
 - POST /predict
-  - Description: Predicts plant disease based on symptoms.
+  - Description: Predicts pathogens based on symptoms.
   - Request Body:
     ```json
       {
