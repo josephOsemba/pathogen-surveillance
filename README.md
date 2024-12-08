@@ -20,8 +20,8 @@ This project is a comprehensive plant disease diagnosis system designed to ident
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/venomous-maker/PathogenAISurveillance
-   cd PathogenAISurveillance
+   git clone https://github.com/josephOsemba/pathogen-surveillance
+   cd "Pathogen Surveillance"
    ```
 
 2. Install the required packages:
