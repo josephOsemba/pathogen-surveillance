@@ -17,14 +17,15 @@ This project is a comprehensive, proactive pandemic detection, and diagnosis sys
 
 ## Installation
 
-1. Clone the repository:
+1. Download Zip file with the entire project here: https://drive.google.com/file/d/1QzCwQ2dIynUsS4BACa2Sm9n0cWUM1KlX/view?usp=sharing
+2. Clone the repository:
 
    ```bash
    git clone https://github.com/josephOsemba/pathogen-surveillance
    cd "Pathogen Surveillance"
    ```
 
-2. Install the required packages:
+3. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
