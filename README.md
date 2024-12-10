@@ -1,8 +1,7 @@
 # AI-DRIVEN PATHOGEN SURVEILLANCE AND PANDEMIC PREVENTION SYSTEM
 
 ## Overview
-This project aims to research, design, and develop an AI-driven system for real-time pathogen surveillance and pandemic prevention.
-This project is a comprehensive, proactive pathogen surveillance system designed to detect disease causing pathogens based on signs and symptoms and the threshold confidence of the pathogen image DNA pattern. The system leverages a neural network model (Memory Network) implemented in TensorFlow/Keras, integrated with a Flask web application to provide a user-friendly interface for users to input symptoms and receive predictions.
+This project is a proactive pathogen surveillance system designed to detect disease-causing pathogens based on signs and symptoms and the threshold confidence of the pathogen image DNA pattern. The system leverages a neural network model (Memory Network) implemented in TensorFlow/Keras, integrated with a Flask web application to provide a user-friendly interface for users to input symptoms and receive predictions.
 
 ## Features
 - **Machine Learning and AI**: Creating, training and deploying machine learning models using TensorFlow, sklearn and Keras.
