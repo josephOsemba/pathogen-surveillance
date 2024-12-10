@@ -1,30 +1,40 @@
-# Plant Disease Diagnosis System
+# AI-DRIVEN PATHOGEN SURVEILLANCE AND PANDEMIC PREVENTION SYSTEM
 
 ## Overview
-
-This project is a comprehensive plant disease diagnosis system designed to identify plant diseases based on signs and symptoms. The system leverages a neural network model (Memory Network) implemented in TensorFlow/Keras, integrated with a Flask web application to provide a user-friendly interface for users to input symptoms and receive predictions.
+This project aims to research, design, and develop an AI-driven system for real-time pathogen surveillance and pandemic prevention.
+This project is a comprehensive, proactive pathogen surveillance system designed to detect disease causing pathogens based on signs and symptoms and the threshold confidence of the pathogen image DNA pattern. The system leverages a neural network model (Memory Network) implemented in TensorFlow/Keras, integrated with a Flask web application to provide a user-friendly interface for users to input symptoms and receive predictions.
 
 ## Features
-
+- **Machine Learning and AI**: Creating, training and deploying machine learning models using TensorFlow, sklearn and Keras.
+- **Real-time data processing**: Implementing real-time processing techniques with OpenCV, and biosensors to ensure timely responses in image and text analysis.
+- **Natural language and image processing (Memory Network Model)**: Developed and integrated NLP solutions using CNN and memory networks to self-learn, interpret, process and memorize 
+                                                                    human text.
+- **Used CNN to self-learn, interpret process and predict images**
 - **Flask Web Application**: A RESTful API for users to submit symptoms and receive disease predictions.
-- **Memory Network Model**: A custom NLP model that utilizes LSTM layers to process and classify any trained data data.
 - **Plant Village Model**: A custome cNN model that utilizes LSTM layers to process and classify images using the trained data.
 - **PlantVillage Dataset**: The model is trained on a dataset containing various plant diseases along with their associated signs and symptoms.
 
 ## Project Structure
 
-/Plant-Disease-Diagnosis ├── app.py # Main Flask application ├── MemoryNetWork.py # Memory Network implementation ├── PlantVillageModel.py # Model handling, training, and prediction ├── requirements.txt # Project dependencies ├── data/ # Dataset folder (optional) └── README.md # Project documentation
+/Pathogen-Diagnosis ├── app.py # Main Flask application ├── MemoryNetWork.py # Memory Network implementation ├── PlantVillageModel.py # Model handling, training, and prediction ├── requirements.txt # Project dependencies ├── data/ # Dataset folder (optional) └── README.md # Project documentation
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/venomous-maker/PathogenAISurveillance
+   git clone:-
+   https://github.com/josephOsemba/pathogen-surveillance
+   cd pathogen-surveillance
+   
+   https://github.com/venomous-maker/PathogenAISurveillance
    cd PathogenAISurveillance
    ```
+   **or**
 
-2. Install the required packages:
+   Download the zip file:- https://drive.google.com/file/d/1QzCwQ2dIynUsS4BACa2Sm9n0cWUM1KlX/view?usp=sharing
+
+3. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
@@ -113,5 +123,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any inquiries, please contact morganokumu8@gmail.com.
+For any inquiries, please contact josephowino13101@gmail.com or morganokumu8@gmail.com.
 
